@@ -45,7 +45,7 @@ public class UnitTest1
         //ÉèÖÃ±àÂë´íÎó¾ÀÕı  
         qrCodeEncoder.QRCodeErrorCorrect = QRCodeEncoder.ERROR_CORRECTION.M;
 
-        using var ms = qrCodeEncoder.Encode("https://syhu.org");
+        using var ms = qrCodeEncoder.Encode("https://github.com/define9/QRCode.Net");
         using var fs = new FileStream("test3.png", FileMode.Create);
         ms.CopyTo(fs);
     }
