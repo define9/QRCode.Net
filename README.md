@@ -27,3 +27,6 @@ using var fs = new FileStream("test3.png", FileMode.Create);
 ms.CopyTo(fs);
 
 ```
+
+### 效果⚓
+![效果]([./OtherFiles/image/home_page.png]#pic_center)
