@@ -29,4 +29,4 @@ ms.CopyTo(fs);
 ```
 
 ### 效果⚓
-![效果]([./OtherFiles/image/home_page.png]#pic_center)
+![效果](OtherFiles/image/home_page.png)
